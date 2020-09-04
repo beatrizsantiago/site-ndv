@@ -213,11 +213,71 @@
 
 #section-donation {
     width: 100%;
-    height: 500px;
+    padding: 80px 20px;
+    box-sizing: border-box;
+}
+
+#section-donation img {
+    width: 100px;
 }
 
 #section-donation h2 {
-    font-size: 35px;
+    font-size: 40px;
     color: var(--black);
     text-align: center;
+    margin: 10px;
+}
+
+#section-donation h3 {
+    font-size: 18px;
+    color: var(--black);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#section-donation p {
+    width: 60%;
+    font-size: 16px;
+    color: var(--black);
+    text-align: center;
+    margin: 20px;
+}
+
+#section-donation a {
+    padding: 12px 25px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--black);
+    font-weight: bold;
+    border: solid 2px var(--black);
+}
+
+#section-location {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#section-location #box-location {
+    width: 50%;
+    height: 500px;
+    background-image: url("../_img/bg-dark.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+#section-location #box-location h2 {
+    font-size: 35px;
+    text-align: center;
+    color: var(--white);
+}
+
+#footer-index {
+    width: 100%;
+    height: 50px;
+    background-color: var(--primary);
+}
+
+#footer-index h5 {
+    font-weight: normal;
 }
