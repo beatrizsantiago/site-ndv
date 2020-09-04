@@ -7,21 +7,12 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#section-home .box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 #section-home .box h1 {
     color: var(--white);
     font-size: 45px;
+    text-align: center;
 }
 
 #section-home .box h2 {
@@ -41,10 +32,6 @@
 
 #section-about {
     position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     padding: 80px 0px;
     box-sizing: border-box;
@@ -65,10 +52,6 @@
 }
 
 #section-pastors {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     height: 450px;
     padding: 20px;
@@ -107,9 +90,6 @@
 
 #section-pastors #box-image {
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 400px;
 }
 
@@ -122,20 +102,81 @@
 #section-schedule {
     width: 100%;
     height: 500px;
-    background-color: var(--primary);
+    background-image: url("../_img/bg-yellow.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+#section-schedule h2 {
+    font-size: 35px;
+    color: var(--white);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+@keyframes colorAnimation {
+    0%   { 
+        filter: grayscale(100%);
+    }
+    100% { 
+        filter: grayscale(0%);
+    }
+ }
+
+#section-schedule .image {
+    width: 300px;
+    transform: rotate(-5deg);
+    filter: grayscale(100%);
+}
+
+#section-schedule .image:hover {
+    filter: grayscale(0%);
+    animation: colorAnimation 2s ease;
+}
+
+#section-schedule .box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 30px;
+    width: 45%;
+}
+
+#section-schedule .box h3 {
+    color: var(--black);
+    font-size: 24px;
+}
+
+#section-schedule .box p {
+    font-size: 18px;
+    color: var(--white);
+    margin: 8px 0px 30px 0px;
 }
 
 #section-projects {
+    width: 100%;
+    height: 500px;
     background-image: url("../_img/bg-templo.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    width: 100%;
-    height: 500px;
+}
+
+#section-projects h2 {
+    font-size: 35px;
+    color: var(--white);
+    text-align: center;
 }
 
 #section-donation {
     width: 100%;
     height: 500px;
+}
+
+#section-donation h2 {
+    font-size: 35px;
+    color: var(--black);
+    text-align: center;
 }
