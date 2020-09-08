@@ -43,7 +43,7 @@ li.item-menu a:hover {
     height: 100%;
 }
 
-.side-box a {
+.side-box a#link-box {
     display: flex;
     justify-content: center;
     align-items: center;
