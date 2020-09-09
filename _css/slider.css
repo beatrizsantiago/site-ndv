@@ -19,13 +19,13 @@
 
 .box-slider div.slider .slider-content:nth-child(1) {
     opacity: 1;
-    -webkit-animation: fade-animation-1 8s infinite;
-            animation: fade-animation-1 8s infinite;
+    -webkit-animation: fade-animation-1 15s infinite;
+            animation: fade-animation-1 15s infinite;
 }
 
 .box-slider div.slider .slider-content:nth-child(2) {
-    -webkit-animation: fade-animation-2 8s infinite;
-            animation: fade-animation-2 8s infinite;
+    -webkit-animation: fade-animation-2 15s infinite;
+            animation: fade-animation-2 15s infinite;
 }
 
 .box-slider div.slider .slider-content h1 {

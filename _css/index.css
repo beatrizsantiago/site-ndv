@@ -78,61 +78,6 @@
     height: 551px;
 }
 
-#section-schedule {
-    width: 100%;
-    height: 500px;
-    background-image: url("../_img/bg-yellow.jpg");
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: cover;
-}
-
-#section-schedule h2 {
-    font-size: 35px;
-    color: var(--white);
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-@keyframes colorAnimation {
-    0%   { 
-        filter: grayscale(100%);
-    }
-    100% { 
-        filter: grayscale(0%);
-    }
- }
-
-#section-schedule .image {
-    width: 300px;
-    transform: rotate(-5deg);
-    filter: grayscale(100%);
-}
-
-#section-schedule .image:hover {
-    filter: grayscale(0%);
-    animation: colorAnimation 2s ease;
-}
-
-#section-schedule .box {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 30px;
-    width: 45%;
-}
-
-#section-schedule .box h3 {
-    color: var(--black);
-    font-size: 24px;
-}
-
-#section-schedule .box p {
-    font-size: 18px;
-    color: var(--white);
-    margin: 8px 0px 30px 0px;
-}
-
 #section-projects {
     width: 100%;
     height: 500px;
