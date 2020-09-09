@@ -15,3 +15,12 @@ function clickHandler(e) {
     })
 }
 
+$(document).ready(function () {
+    $('.carousel-events').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+    })
+})
+
