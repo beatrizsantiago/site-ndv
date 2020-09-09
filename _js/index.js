@@ -24,3 +24,12 @@ $(document).ready(function () {
     })
 })
 
+$(document).ready(function () {
+    $('.carousel-titles').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 5000,
+    })
+})
+
