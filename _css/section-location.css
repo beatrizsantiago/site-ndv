@@ -1,0 +1,49 @@
+#section-location {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#section-location div.box-location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 500px;
+    background-image: url("../_img/bg-dark.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#section-location div.box-location h2 {
+    font-size: 35px;
+    text-align: center;
+    color: var(--white);
+}
+
+#section-location div.box-location h3 {
+    font-size: 16px;
+    text-align: center;
+    color: var(--white);
+    margin: 20px;
+}
+
+#section-location div.box-location div.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-location div.box-location a {
+    margin: 10px 20px;
+}
+
+#section-location div.box-location a img {
+    width: 40px;
+}
