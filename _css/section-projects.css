@@ -5,6 +5,7 @@
     align-items: center;
     width: 100%;
     padding: 80px 20px 100px 20px;
+    box-sizing: border-box;
     background-image: url("../_img/bg-templo.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;

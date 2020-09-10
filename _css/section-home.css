@@ -12,14 +12,6 @@
     background-size: cover;
 }
 
-#section-home .slick-prev:before {
-    color: transparent;
-}
-
-#section-home .slick-next:before {
-    color: transparent;
-}
-
 #section-home div.carousel-titles {
     display: flex;
     justify-content: center;
