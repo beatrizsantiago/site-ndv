@@ -33,6 +33,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    outline: none;
 }
 
 #section-home div.carousel-titles div.content h1 {
