@@ -45,11 +45,96 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 400px;
+    width: 40%;
 }
 
 #section-pastors div.box-image img {
     position: absolute;
     width: 500px;
     height: 551px;
+}
+
+@media (max-width: 1060px) 
+{
+    #section-pastors {
+        height: 360px;
+    }
+
+    #section-pastors div.box-image img {
+        width: 400px;
+        height: 450px;
+    }
+}
+
+@media (max-width: 860px) 
+{
+    #section-pastors {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        height: 640px;
+    }
+
+    #section-pastors div.about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin-right: 0px;
+    }
+
+    #section-pastors div.about h2 {
+        text-align: center;
+    }
+
+    #section-pastors div.about p {
+        text-align: center;
+    }
+
+    #section-pastors div.box-image {
+        height: 40%;
+    }
+}
+
+@media (max-width: 580px) 
+{
+    #section-pastors {
+        height: 600px;
+    }
+
+    #section-pastors div.about {
+        width: 90%;
+    }
+
+    #section-pastors div.about h2 {
+        font-size: 26px;
+    }
+
+    #section-pastors div.about p {
+        font-size: 14px;
+    }
+
+    #section-pastors div.box-image img {
+        width: 360px;
+        height: 410px;
+    }
+}
+
+@media (max-width: 460px) 
+{
+    #section-pastors div.box-image img {
+        width: 300px;
+        height: 350px;
+    }
+
+    #section-pastors div.box-image {
+        height: 32%;
+    }
+    
+    #section-pastors div.about a {
+        padding: 10px 12px;
+        font-size: 12px;
+    }
 }

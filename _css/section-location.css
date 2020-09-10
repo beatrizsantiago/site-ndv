@@ -47,3 +47,43 @@
 #section-location div.box-location a img {
     width: 40px;
 }
+
+#section-location .map {
+    width: 50%;
+    height: 500px;
+}
+
+@media (max-width: 800px) 
+{
+    #section-location {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #section-location div.box-location {
+        width: 100%;
+        height: 300px;
+    }
+
+    #section-location .map {
+        width: 100%;
+        height: 400px;
+    }
+}
+
+@media (max-width: 500px) 
+{
+    #section-location div.box-location h2 {
+        font-size: 26px;
+    }
+    
+    #section-location div.box-location h3 {
+        font-size: 14px;
+    }
+
+    #section-location div.box-location a img {
+        width: 30px;
+    }
+}

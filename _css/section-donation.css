@@ -42,3 +42,24 @@
     font-weight: bold;
     border: solid 2px var(--black);
 }
+
+
+@media (max-width: 600px) 
+{
+    #section-donation h2 {
+        font-size: 30px;
+    }
+    
+    #section-donation h3 {
+        font-size: 15px;
+    }
+
+    #section-donation p {
+        width: 90%;
+    }
+
+    #section-donation a {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+}
